@@ -5,33 +5,32 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar {
+  padding: 2em;
+  border-radius: 1em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80vw;
+  height: 100%; /* Ocupa toda la altura del contenedor */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.containerLeft {
+  display: flex;
+  justify-content: flex-end; /* Alinea la barra lateral en el lado derecho */
+  height: 100vh; /* Establece la altura al 100% del viewport */
 }
+
+.containerRight {
+  display: flex;
+  justify-content: flex-start; /* Alinea la barra lateral en el lado derecho */
+  height: 100vh; /* Establece la altura al 100% del viewport */
+}
+
+
 
 .card {
   padding: 2em;
