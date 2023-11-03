@@ -9,10 +9,6 @@ import { BrowserRouter as Router, Routes ,Route } from 'react-router-dom';
 //Navbar
 import { Navbar } from './components/Navbar';
 
-//Sidebar
-import  BarralLeft  from './components/BarralLeft';
-import BarralRight from './components/BarralRight';
-
 //Footer
 import { Footer } from './components/Footer';
 
@@ -34,16 +30,6 @@ function App() {
                 <Route path='/pagina2' Component={Second}/>
             </Routes>
         </Router>
-
-
-      
-      <div>
-
-      <BarralLeft/>
-      <BarralRight/>
-      
-      </div>
-
 
       <Footer/>
 

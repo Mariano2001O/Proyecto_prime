@@ -15,25 +15,26 @@
   align-items: center;
   justify-content: space-between;
   max-width: 80vw;
-  height: 100%; /* Ocupa toda la altura del contenedor */
+  height: 100%;
 }
 
 .containerLeft {
-  display: flex;
-  justify-content: flex-end; /* Alinea la barra lateral en el lado derecho */
-  height: 100vh; /* Establece la altura al 100% del viewport */
+  display: inline-block;
+  height: 100vh;
 }
 
 .containerRight {
-  display: flex;
-  justify-content: flex-start; /* Alinea la barra lateral en el lado derecho */
-  height: 100vh; /* Establece la altura al 100% del viewport */
+  display: inline-block;
+  height: 100vh;
 }
 
-
+.styleTexto {
+  text-align: left;
+}
 
 .card {
   padding: 2em;
+  display: flex;
 }
 
 .read-the-docs {
