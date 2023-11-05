@@ -33,7 +33,7 @@ export const First = () => {
             diseño web como un ejemplo de un diseño de página web flexible y adaptable.
                 </div>
             </Card>
-            <BarralLeftgit />
+            <BarralLeft/>
         </div>
     )
 }
