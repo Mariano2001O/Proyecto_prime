@@ -9,7 +9,7 @@ export const Home = () => {
     <div>
         <h1>Diseño Santo grial</h1>
         <div style={{display: 'flex'}}>
-            <BarralLeft/>
+            <BarralRight/>
             <Card>
                 <div className="styleTexto">
             <p>El término "diseño del Santo Grial" en programación se refiere a un patrón de diseño de diseño web
@@ -35,7 +35,7 @@ export const Home = () => {
             diseño web como un ejemplo de un diseño de página web flexible y adaptable.
                 </div>
             </Card>
-            <BarralRight/> 
+            <BarralLeft/> 
         </div>
     
     </div>
