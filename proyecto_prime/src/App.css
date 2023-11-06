@@ -28,8 +28,12 @@
   height: 100vh;
 }
 
-.styleTexto {
+.styleContainerTexto {
   text-align: left;
+}
+
+.styleTexto {
+  color:goldenrod
 }
 
 .card {

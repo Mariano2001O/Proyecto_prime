@@ -5,17 +5,17 @@ import { Menubar } from 'primereact/menubar';
 export const Navbar = () => {
     const items = [
         {
-            label: 'Inicio',
+            label: 'Correr',
             icon: 'pi pi-fw pi-file',
             url: '/'
         } , 
         {
-            label: 'Acerca de',
+            label: 'Beneficios',
             icon: 'pi pi-fw pi-file',
             url: '/pagina1'
         }, 
         {
-            label: 'Ubicacion',
+            label: 'Cuidados',
             icon: 'pi pi-fw pi-file',
             url: '/pagina2'
         }
