@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+.img {
+  width: 25%;
+  height: auto;
+  display: flex;
+  margin: 1rem auto;
+}
+
 .sidebar {
   padding: 2em;
   border-radius: 1em;
