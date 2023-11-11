@@ -1,8 +1,9 @@
+
 const BarralRight = () => {
     return (
     <div className="containerRight">
         <div className="sidebar">
-            {"que onda la barrita izquierda"}
+            <h1>xddddd</h1>
         </div>
     </div>
     );
