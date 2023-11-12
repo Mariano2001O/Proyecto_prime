@@ -23,7 +23,6 @@ export const Home = () => {
             </Card>
             <BarralLeft/> 
         </div>
-    
     </div>
     
     )

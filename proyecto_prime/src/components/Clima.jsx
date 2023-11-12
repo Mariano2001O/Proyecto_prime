@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import axios from 'axios' 
-
+//API
 function Clima() {
     const [data, setData] = useState({})
     const [location, setLocation] = useState('')

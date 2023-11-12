@@ -1,8 +1,9 @@
-import Cocacola from '../img/Cocacola.jpg';
-
+import IMC from '../img/IMC.jpg';
+import IMC2 from '../img/IMC2.jpg'
 
 const imageFiles = {
-    Cocacola
+    IMC,
+    IMC2
   };
   
   export default imageFiles;
