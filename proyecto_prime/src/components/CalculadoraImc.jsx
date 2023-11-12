@@ -31,6 +31,7 @@ const CalculadoraImc = () => {
         value={altura}
         onChange={(e) => setAltura(e.target.value)}
         />
+        <br/><br/>
         <button onClick={calcularImc}>Calcular IMC</button>
         <p>IMC: {imc}</p>
     </div>

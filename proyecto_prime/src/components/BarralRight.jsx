@@ -7,7 +7,7 @@ const BarralRight = () => {
     <div className="containerRight">
         <div className="sidebar">
             <CalculadoraImc/>
-            <p>Tabla de Indice de masa corporal</p>
+            <p>Tabla de Indice de masa corporal:</p>
             <Image src= {imageFiles.IMC} alt="Image" width="250"/>
         </div>
     </div>

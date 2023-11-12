@@ -1,4 +1,5 @@
-import './App.css'
+//css
+import './Styles/App.css'
 
 //theme
 import "primereact/resources/themes/Soho-Dark/theme.css";

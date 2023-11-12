@@ -6,7 +6,7 @@ import BarralRight from "../components/BarralRight";
 export const Home = () => {
     return (
     <div>
-        <h2>Correr por Correr</h2>
+        <h2>Correr por correr</h2>
         <div style={{display: 'flex'}}>
             <BarralRight/>
             <Card>
